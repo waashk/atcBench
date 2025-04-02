@@ -29,6 +29,7 @@ source env/bin/activate
 
 ### Installing and Activating through Dockerfile
 
+@TODO
 
 ```
 cd atcbench/settings/
@@ -60,10 +61,10 @@ python main.py
 
 ## Automatic Text Classification Datasets
 
-All datasets in .parquet format are provided in the following link: [LINK](https://huggingface.co/datasets/waashk/)
+All datasets in .parquet format are provided in the following link: [LINK] (https://huggingface.co/datasets/waashk/)
 
-| **Dataset**  | **Size** | **Dim.** | **# Classes** | **Density** | **Skewness**                                                |
-|--------------|----------|----------|---------------|-------------|----------------------|------------------------------------------------|
+| **Dataset**  | **Size** | **Dim.** | **# Classes** | **Density** | **Skewness**         |
+|--------------|----------|----------|---------------|-------------|----------------------|
 | DBLP         | 38,128   | 28,131   | 10            | 141         | Imbalanced            |
 | Books        | 33,594   | 46,382   | 8             | 269         | Imbalanced            |
 | ACM          | 24,897   | 48,867   | 11            | 65          | Imbalanced            |
