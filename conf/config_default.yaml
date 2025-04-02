@@ -1,0 +1,19 @@
+
+# FILES
+defaults: # (these specify which config FILES to use)
+  ############## TRAIN ###################################
+  - data: yelp_reviews_2L
+  - model: llama3.1
+  #- model: roberta
+  #- model: lr
+  - paths: default
+
+config: 
+  random_seed: 42
+  
+#model:
+  #text_representation: bert
+  #text_representation: llama3.1
+  #load_representation: True
+
+

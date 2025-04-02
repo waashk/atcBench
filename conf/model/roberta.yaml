@@ -1,0 +1,18 @@
+# @package model
+
+type: slm
+
+model_name: roberta-base
+model_tag: roberta
+
+training_args:
+  max_len: 256
+  batch_size: 32
+  lr: 5e-5
+  num_max_epochs: 10
+  patience: 3
+  weight_decay_rate: 0.01
+  min_val_epoch_impro_delta: 1e-4
+  max_grad_norm: 1.0
+
+text_representation: raw

@@ -1,0 +1,8 @@
+# @package data
+
+#type: TODO
+
+dataset: vader_nyt_2L
+nfolds: 10
+
+VALIDATION_SIZE_FOR_LOSS: 0.1

@@ -1,0 +1,9 @@
+
+
+output_dir: resources/output/
+
+output_dir_full_path: ${paths.output_dir}/${model.model_tag}/${data.dataset}/
+
+DATA_DIR: resources/datasets/${data.dataset}/
+
+SPLITS_DIR: resources/datasets/${data.dataset}/splits/

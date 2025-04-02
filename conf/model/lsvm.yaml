@@ -1,0 +1,22 @@
+# @package model
+
+type: traditional
+
+#model_name: lsvm
+model_tag: lsvm
+
+training_args:
+  n_jobs: 10
+  cv: 10 # cross-validation / grid search
+  tuning_params:
+    C: [0.125, 0.5, 1, 2, 8, 32, 128, 512, 2048, 8192]
+
+text_representation: tfidf
+load_representation: True
+#removed stopwords using the standard list from the scikit-learn library~\cite{sklearn}~(version 0.23.2)
+#we only kept features that appear in at least two documents.
+rep_parameters:
+  remove_stopword: True
+  min_df: 2
+  norm: l2
+  #max_feat: 10000
