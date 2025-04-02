@@ -62,7 +62,7 @@ python main.py
 
 All datasets in .parquet format are provided in the following link: [LINK] ([LINK])
 
-| **Dataset**  | **Size** | **Dim.** | **# Classes** | **Density** | **Skewness**         | **Link**                                       |
+| **Dataset**  | **Size** | **Dim.** | **# Classes** | **Density** | **Skewness**                                                |
 |--------------|----------|----------|---------------|-------------|----------------------|------------------------------------------------|
 | DBLP         | 38,128   | 28,131   | 10            | 141         | Imbalanced            |
 | Books        | 33,594   | 46,382   | 8             | 269         | Imbalanced            |
