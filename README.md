@@ -2,7 +2,7 @@
 
 ## From traditional approaches to large language models
 
-[Paper](https://doi.org/10.48550/arXiv.2504.01930)
+https://doi.org/10.48550/arXiv.2504.01930
 
 This repository contains a Python 3 implementation for atcBench.
 
