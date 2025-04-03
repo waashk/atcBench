@@ -2,6 +2,8 @@
 
 ## From traditional approaches to large language models
 
+[Paper](https://doi.org/10.48550/arXiv.2504.01930)
+
 This repository contains a Python 3 implementation for atcBench.
 
 ## Setup environment
@@ -113,7 +115,7 @@ The outputs of the main.py script are:
 @article{cunha2025arxiv,
   title={A thorough benchmark of automatic text classification: From traditional approaches to large language models},
   author={Cunha, Washington and Rocha, Leonardo and Gon{\c{c}}alves, Marcos Andr{\'e}},
-  journal={arXiv preprint arXiv:xxxx.xxxxx},
+  journal={arXiv preprint arXiv:2504.01930},
   year={2025}
 }
 ```
