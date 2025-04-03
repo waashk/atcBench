@@ -63,7 +63,7 @@ python main.py
 
 ## Automatic Text Classification Datasets
 
-All datasets in .parquet format are provided in the following link: [LINK] (https://huggingface.co/datasets/waashk/)
+All datasets in .parquet format are provided in the following link: [LINK] (https://huggingface.co/waashk/)
 
 | **Dataset**  | **Size** | **Dim.** | **# Classes** | **Density** | **Skewness**         |
 |--------------|----------|----------|---------------|-------------|----------------------|
